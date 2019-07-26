@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Traffic Safety Quiz</title>
+    <link href="style.css" rel= "stylesheet">
+    <script src ="main.js"></script>
+</head>
+<body>
+    <div class="wrap">
+    <h1>Traffic Saftey Quiz</h1>                                                         
+</div>
+<div class="container">
+    <form id="quiz" name="quiz">
+<p>Which lane is the slow/driving lane?</p>
+<input type="radio" id="mc" name="question1" value="leftlane">Left Lane<br>
+<input type="radio" id="mc" name="question1" value="rightlane">Right Lane<br>
+
+<p>When do you turn on your turn signal?</p>
+<input type="radio" id="mc" name="question2" value="et">At every turn<br>
+<input type="radio" id="mc" name="question2" value="ol">Only when turning left<br>
+
+<p>What does a yellow light mean?</p>
+<input type="radio" id="mc" name="question3" value="su">Speed up!<br>
+<input type="radio" id="mc" name="question3" value="uc">Use Caution<br>
+
+<p>In snowy, icy, rainey weather:</p>
+<input type="radio" id="mc" name="question4" value="go">You should go fast and enjoy the road.<br>
+<input type="radio" id="mc" name="question4" value="sd">Drive with caution and slow down.<br>
+
+<p>It is okay to text and drive when</p>
+<input type="radio" id="mc" name="question5" value="nmt">There is not much traffic around<br>
+<input type="radio" id="mc" name="question5" value="nv">Never<br>
+</div>
+
+<input id="button" type="button" value="Finish" onclick="check();">
+</form>
+
+<div id ="submit">
+
+<p id="message"></p>
+<p id="number_correct"></p>
+</div>
+
+
+
+</body>
+</html>
